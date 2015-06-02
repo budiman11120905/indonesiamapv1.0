@@ -1,0 +1,14 @@
+{
+  "name": "Herdy Cargo",
+  "description": "Freight Forwarding Company by Air",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/images/icon-512.png",
+    "128": "/images/icon-128.png"
+  },
+  "developer": {
+    "name": "budiman11120905",
+    "url": "https://github.com/budiman11120905/herdycargo"
+  },
+  "default_locale": "id"
+}

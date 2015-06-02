@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Indonesia Map Audio</title>
+	<script src="jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+<!--
+body {
+	background-image: url(indonesia.jpg);
+}
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style4 {color: #0000FF}
+.style5 {color: #FF0000}
+-->
+</style></head>
+<body>
+
+<header>
+		<h1><span class="style4">Voice</span> <small>on <span class="style5">Indonesia Map</span></small></h1>
+		<p class="style1">Develop by budiman11120905</p>
+		<span class="style1">
+		<aside>	    </aside>
+		</span>
+		<strong>
+		<aside></aside>
+		</strong>
+		<aside><p class="style1">
+			Indonesia Map Audio V.01
+		</p>
+  </aside>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="/indonesiamap/id/kepulauan%20indonesia/kepindonesia.html" class="style1">Bahasa Indonesia</a></li>
+		<li><a href="/indonesiamap/eng/islands%20in%20indonesia/indonesiaislands.html" class="style1">English Language</a></li>
+		<li><a href="about.html" class="style1">About</a></li>
+	</ul>
+	<audio id="soundBeep" preload="auto">
+			<source src="beep.mp3"></source>
+			<source src="beep.ogg"></source>
+	</audio>
+</nav>
+
+<script>
+	var soundBeep = $("#soundBeep")[0];
+	$("nav a").hover(function() {
+		soundBeep.play();
+	}, function(){
+		soundBeep.pause();
+	});
+</script>
+</body>
+</html>
